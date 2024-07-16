@@ -7,3 +7,7 @@ libs = ["lib"]
 
 [fuzz]
 runs = 7000
+
+[invariant]
+runs = 256
+# fail_on_revert = true
